@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
+    <title>Code Decoder Using HTML , CSS and JavaScript</title>
+</head>
+<script>
+    Decode = ()=>{
+        var string=document.querySelector("#text-1").value;
+        var arr=string.split(" ");
+        var sum="";
+        for(var i=0 ; i<arr.length ; i++)
+        {
+            var a=String.fromCharCode(arr[i]);
+            sum+=a;
+        }
+        // console.log(sum);
+        document.querySelector("#text-2").value=sum;
+    }
+    // 80 114 105 116 104 97 109
+    // Pritham
+
+    Clear=()=>{
+        document.querySelector("#text-1").value="";
+        document.querySelector("#text-2").value="";
+    }
+</script>
+<body>
+    <h1 class="text-center">Welcome to Code Decoder</h1>
+    <div class="container bg-blue">
+        <label for="nothing" ><h3 class="to-center-label">HOLA !!! TYPE THE CODE</h3></label>
+        <input type="text" class="to-center-input" id="text-1">
+        <br>
+        <br>
+        <button type="Submit" onclick="Decode()">DECODE</button>
+        <br>
+        <br> 
+        <br>
+        <input type="text" class="to-center-input" id="text-2">
+        <br>
+        <br>
+        <button type="Submit" style="padding-left: 20px; padding-right: 20px;" onclick="Clear()">Clear</button>
+        <br>
+    </div>
+    <img src="" alt="Logo">
+</body>
+</html>

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Koulen&family=Macondo&display=swap');
+
+body {
+    padding: 0px;
+    margin: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Koulen', cursive;
+    font-family: 'Macondo', cursive;
+    background: url(Math.png) repeat fixed;
+    background-size: contain;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    animation: id1 2s linear 0s infinite alternate-reverse;
+}
+
+@keyframes id1 {
+    from{
+        color: white;
+        opacity: 1;
+    }
+    to{
+        color: rgb(211, 206, 206);
+        opacity: 0.5;
+    }
+}
+
+.container {
+    height: 50vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: rgb(186, 199, 198);
+    color: black;
+    border-radius: 50px;
+    animation: Pritham 3s linear 0s 1 normal;
+}
+
+.container:hover{
+    background-color: rgb(185, 186, 160);
+}
+
+@keyframes Pritham {
+    from{
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+input:hover{
+    box-shadow: 1px 5px 5px 2px;
+    background-color: rgb(238, 223, 223);
+}
+
+
+
+.to-center-label {
+    margin-left: 35vw;
+}
+
+.to-center-input {
+    margin-left: 16vw;
+    width: 47vw;
+    height: 7vh;
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    padding: 10px;
+    margin-left: 37vw;
+    background-color: #7df063;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgb(3, 4, 17);
+    color: #7df063;
+    border-color: white;
+    box-shadow: 3px 2px 2px 7px;
+}
