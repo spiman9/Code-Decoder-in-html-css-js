@@ -14,7 +14,7 @@ h1{
     color: rgb(255, 255, 255);
     background-color: red;
     animation: id1 2s linear 0s infinite alternate-reverse;
-    font-size: 200px;
+    font-size: 40px;
 }
 
 @keyframes id1 {
@@ -63,7 +63,6 @@ input:hover{
     color: black;
     text-align: center;
     font-weight: bold;
-    font-size: 100%;
 }
 
 .to-center-input {
@@ -96,6 +95,9 @@ button:hover{
 
 @media screen and (max-width: 768px) {
     h1{
-        font-size: 200px;
+        font-size: 150px;
+    }
+    h3{
+        font-size: 100px;
     }
 }
