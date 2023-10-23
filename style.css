@@ -14,7 +14,7 @@ h1{
     color: rgb(255, 255, 255);
     background-color: red;
     animation: id1 2s linear 0s infinite alternate-reverse;
-    font-size: 40px;
+    font-size: 200px;
 }
 
 @keyframes id1 {
@@ -96,6 +96,6 @@ button:hover{
 
 @media screen and (max-width: 768px) {
     h1{
-        font-size: larger;
+        font-size: 200px;
     }
 }
