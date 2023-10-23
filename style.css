@@ -14,7 +14,10 @@ h1{
     color: rgb(255, 255, 255);
     background-color: red;
     animation: id1 2s linear 0s infinite alternate-reverse;
-    font-size: 40px;
+    font-size: 150px;
+}
+h3{
+    font-size: 120px;
 }
 
 @keyframes id1 {
@@ -82,7 +85,7 @@ button {
     margin-right: 20%;
     background-color: #7df063;
     border-radius: 20px;
-    font-size: large;
+    font-size: 100px;
 }
 
 button:hover{
@@ -92,12 +95,3 @@ button:hover{
     box-shadow: 3px 2px 2px 7px;
 }
 
-
-@media screen and (max-width: 768px) {
-    h1{
-        font-size: 150px;
-    }
-    h3{
-        font-size: 100px;
-    }
-}
