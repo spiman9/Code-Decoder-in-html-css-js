@@ -14,7 +14,7 @@ h1{
     color: rgb(255, 255, 255);
     background-color: red;
     animation: id1 2s linear 0s infinite alternate-reverse;
-    font-size: 3rem;
+    font-size: 40px;
 }
 
 @keyframes id1 {
@@ -83,6 +83,7 @@ button {
     margin-right: 20%;
     background-color: #7df063;
     border-radius: 20px;
+    font-size: large;
 }
 
 button:hover{
