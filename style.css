@@ -100,3 +100,10 @@ button:hover{
     box-shadow: 3px 2px 2px 7px;
 }
 
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
