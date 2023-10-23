@@ -3,9 +3,9 @@
 body {
     padding: 0px;
     margin: 20px;
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive;
     font-family: 'Koulen', cursive;
-    font-family: 'Macondo', cursive;
+    font-family: 'Macondo', cursive; */
     background: url(Math.png) repeat fixed;
     background-size: contain;
 }
