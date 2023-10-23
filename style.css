@@ -14,6 +14,7 @@ h1{
     color: rgb(255, 255, 255);
     background-color: red;
     animation: id1 2s linear 0s infinite alternate-reverse;
+    font-size: 3rem;
 }
 
 @keyframes id1 {
@@ -28,9 +29,9 @@ h1{
 }
 
 .container {
-    height: 50vh;
     margin-left: 10vw;
     margin-right: 10vw;
+    padding: 30px 10px;;
     background-color: rgb(186, 199, 198);
     color: black;
     border-radius: 50px;
@@ -59,20 +60,27 @@ input:hover{
 
 
 .to-center-label {
-    margin-left: 35vw;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .to-center-input {
-    margin-left: 16vw;
-    width: 47vw;
-    height: 7vh;
+    /* margin-left: 16vw; */
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
     text-align: center;
     font-size: 30px;
 }
 
 button {
-    padding: 10px;
-    margin-left: 37vw;
+    padding: 15px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: #7df063;
     border-radius: 20px;
 }
