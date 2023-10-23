@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Koulen&family=Macondo&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Koulen&family=Macondo&display=swap'); */
 
 body {
     padding: 0px;
@@ -63,7 +63,7 @@ input:hover{
     color: black;
     text-align: center;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 100%;
 }
 
 .to-center-input {
@@ -91,4 +91,11 @@ button:hover{
     color: #7df063;
     border-color: white;
     box-shadow: 3px 2px 2px 7px;
+}
+
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: larger;
+    }
 }
